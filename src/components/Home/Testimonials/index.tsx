@@ -1,13 +1,5 @@
 'use client'
 import React, { CSSProperties, useState } from "react";
-import {
-    MDBCarousel,
-    MDBCarouselItem,
-    MDBContainer,
-    MDBRow,
-    MDBCol,
-    MDBIcon,
-} from "mdb-react-ui-kit";
 
 export default function Testimonials() {
     const buttonStyles: CSSProperties = {
@@ -26,78 +18,117 @@ export default function Testimonials() {
         }, 2500);
     }
     return (
-        <MDBContainer className="my-5">
-            <MDBCarousel dark>
-                <MDBCarouselItem className="active text-center">
-                    <img
-                        src="/images/avatar.jpeg"
-                        alt="avatar"
-                        className="rounded-circle shadow-1-strong mb-4"
-                        style={{ width: "150px" }}
-                    />
-                    <MDBRow className="d-flex justify-content-center">
-                        <MDBCol lg="8">
-                            <h5 className="mb-3">Kepha</h5>
-                            <p>Medical student (Co-founder, Greencal Foundation)</p>
-                            <p className="text-muted">
-                                <MDBIcon fas icon="quote-left" className="pe-2" />
-                                As a medical student witnessing the healthcare struggles faced by many in Abakaliki, I knew I had to act. Greencal Foundation allows me to combine my medical knowledge with a passion for social justice. Working alongside Adum and our dedicated team, {`we're`} actively improving access to quality healthcare in underserved communities. Together, {`we're`} building a healthier Abakaliki, one step at a time.
-                                {" "}<MDBIcon fas icon="quote-right" className="pe-2" />
-                            </p>
-                            <button onClick={() => openVideo()} style={{ ...buttonStyles }}>
-                                <i></i>
-                                Watch Video
-                            </button>
-                            <div className="title-color mt-3 font-weight-bold">
-                                {status}
+        <div className="text-gray-600 py-20 pt-8" id="reviews">
+
+            <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+
+                <div className="mb-10 space-y-4 px-6 md:px-0">
+                    <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-600  md:text-4xl">We Have Some Fans</h2>
+                </div>
+
+
+                <div className="md:columns-2 lg:columns-3 gap-8 space-y-8">
+
+
+                    <div
+                        className="aspect-auto p-8 rounded-3xl text-gray-800 bg-white shadow-2xl ">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar" width="400" height="400" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium text-gray-700 ">Daniella Doe</h6>
+                                <p className="text-sm text-gray-500">Mobile dev</p>
                             </div>
-                        </MDBCol>
-                    </MDBRow>
+                        </div>
+                        <p className="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos
+                            illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam
+                            ullam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti
+                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at
+                            reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
 
-                </MDBCarouselItem>
-                
-                <MDBCarouselItem className="text-center">
-                    <img
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
-                        alt="avatar"
-                        className="rounded-circle shadow-1-strong mb-4"
-                        style={{ width: "150px" }}
-                    />
-                    <MDBRow className="d-flex justify-content-center">
-                        <MDBCol lg="8">
-                            <h5 className="mb-3">CHIJIOKE NWANKWO</h5>
-                            <p>Software Engineer, Lagos, Nigeria
-                            </p>
-                            <p className="text-muted">
-                                <MDBIcon fas icon="quote-left" className="pe-2" />
-                                Greenhub Foundation has been a beacon of hope for children in our community. Their dedication to education and scholarships is changing lives and shaping a brighter future.
-                            </p>
-                        </MDBCol>
-                    </MDBRow>
 
-                </MDBCarouselItem>
+                    <div
+                        className="aspect-auto text-gray-900 p-8  rounded-3xl bg-white shadow-2xl shadow-gray-600/10 ">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/14.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium text-gray-700 ">Jane doe</h6>
+                                <p className="text-sm text-gray-500 ">Marketing</p>
+                            </div>
+                        </div>
+                        <p className="mt-8"> Lorem ipsum dolor laboriosam deleniti aperiam ab veniam sint non cumque quis tempore
+                            cupiditate. Sint libero voluptas veniam at reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
 
-                <MDBCarouselItem className="text-center">
-                    <img
-                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
-                        alt="avatar"
-                        className="rounded-circle shadow-1-strong mb-4"
-                        style={{ width: "150px" }}
-                    />
-                    <MDBRow className="d-flex justify-content-center">
-                        <MDBCol lg="8">
-                            <h5 className="mb-3">IBRAHIM ABDULLAHI</h5>
-                            <p>Education Advocate, Kano, Nigeria</p>
-                            <p className="text-muted">
-                                <MDBIcon fas icon="quote-left" className="pe-2" />
-                                As an education advocate, I applaud Greenhub {`Foundation's`} commitment to empowering young minds. The scholarships offered are instrumental in bridging the gap and creating opportunities for deserving students.
-                            </p>
-                        </MDBCol>
-                    </MDBRow>
 
-                </MDBCarouselItem>
-            </MDBCarousel>
-        </MDBContainer>
+                    <div
+                        className="aspect-auto p-8  rounded-3xl bg-white  shadow-2xl">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/18.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium ">Yanick Doe</h6>
+                                <p className="text-sm text-gray-500">Developer</p>
+                            </div>
+                        </div>
+                        <p className="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti
+                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at
+                            reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
+
+
+                    <div
+                        className="aspect-auto p-8 border rounded-3xl bg-white shadow-2xl">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/2.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium text-gray-700">Jane Doe</h6>
+                                <p className="text-sm text-gray-500">Mobile dev</p>
+                            </div>
+                        </div>
+                        <p className="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti
+                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at
+                            reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
+
+
+                    <div
+                        className="aspect-auto p-8 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/62.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium text-gray-700">Andy Doe</h6>
+                                <p className="text-sm text-gray-500">Manager</p>
+                            </div>
+                        </div>
+                        <p className="mt-8"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam
+                            deleniti aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at
+                            reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
+
+
+                    <div
+                        className="aspect-auto p-8 rounded-3xl bg-white border-gray-700 shadow-2xl shadow-gray-600/10">
+                        <div className="flex gap-4">
+                            <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/19.jpg" alt="user avatar" width="400" height="400" loading="lazy" />
+                            <div>
+                                <h6 className="text-lg font-medium text-gray-700 text-white">Yanndy Doe</h6>
+                                <p className="text-sm text-gray-500 text-gray-300">Mobile dev</p>
+                            </div>
+                        </div>
+                        <p className="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti
+                            aperiam ab veniam sint non cumque quis tempore cupiditate. Sint libero voluptas veniam at
+                            reprehenderit, veritatis harum et rerum.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     );
 }
 

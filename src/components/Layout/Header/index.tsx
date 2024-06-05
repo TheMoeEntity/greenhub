@@ -31,11 +31,11 @@ const Header = () => {
                     />
                 </div>
                 <div className='md:flex hidden gap-x-8'>
-                    <span>HOME</span>
-                    <span>ABOUT</span>
-                    <span>VOLUNTEER</span>
-                    <span>GALLERY</span>
-                    <span>CONTACT</span>
+                    <span>Home</span>
+                    <span>About</span>
+                    <span>Volunteer</span>
+                    <span>Gallery</span>
+                    <span>Contact</span>
                 </div>
                 <div className='md:hidden'>
                     <button><i className='fas fa-bars text-3xl'></i></button>
