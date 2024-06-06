@@ -22,11 +22,11 @@ const Hero = () => {
   };
   const slideImages = [
     {
-      url: "/images/IMG_6972.JPG",
+      url: "/images/IMG_6972.jpg",
       caption: "Slide 1",
     },
     {
-      url: "/images/IMG_6979.JPG",
+      url: "/images/IMG_6979.jpg",
       caption: "Slide 2",
     },
   ];
