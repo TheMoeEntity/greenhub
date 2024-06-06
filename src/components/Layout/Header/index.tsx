@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <div className='lg:absolutse top-0 left-0 w-full'>
             <div className="w-full py-5 gap-y-5 text-sm bg-[#151C1F] flex flex-col md:flex-row font-light text-[#CECECE] justify-center items-center md:justify-around">
-                <div className='flex flex-col md:flex-row gap-y-3 text-center gap-x-4'>
+                <div className='flex  flex-col md:flex-row gap-y-3 text-center gap-x-4'>
                     <span>Phone: (+234) 701 499 9228 </span>
-                    <span>|</span>
+                    <span className='hidden md:block'>|</span>
                     <span>
-                        <a href="https://www.facebook.com/oluwaseun.adeyemi.3" target="_blank" rel="noreferrer">greenhubunilag@gmail.com </a>
+                        <a href="https://www.facebook.com/oluwaseun.adeyemi.3" target="_blank" rel="noreferrer" className='text-[#CECECE]'>greenhubunilag@gmail.com </a>
                     </span>
                 </div>
                 <div className='gap-x-7 flex invisible'>
@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex py-10 justify-around items-center bg-[#273527] text-white'>
-                <div className='w-[35%] md:w-auto'>
+                <div className='w-[35%] md:w-[11%]'>
                     <Image
                         src={logo}
                         alt="UNILAG LOGO"

@@ -13,19 +13,21 @@ const FundRaisers = () => {
             title: "GreenHub Sustainability 1.0",
             content: "Short detail on the sustainablity 1.0 event. ",
             comingSoon: false,
-            slug: 'greencal-essay-competition'
+            slug: 'greenhub-sustainability-1.0'
         },
         {
             img: medical,
             title: "GreenHub Sustainability 2.0",
             content: "Short detail on the sustainablity 2.0 event. ",
-            comingSoon: true
+            comingSoon: false,
+            slug:'greenhub-sustainability-2.0'
         },
         {
             img: hangout,
             title: "2023 Children Summer Sustainability Hangout",
             content: "Short detail on the GreenHub Summer Hangout. ",
-            comingSoon: true
+            comingSoon: false,
+            slug: 'children-summer-sustainability-hangout'
         },
     ]
     return (

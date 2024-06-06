@@ -7,6 +7,7 @@ import shape from "../../../../../public/images/shape-1.png";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import { useReveal } from "@/Helpers/hooks";
+import Link from "next/link";
 const About = () => {
   const { push, visible, ref } = useReveal(useInView)
 
@@ -22,8 +23,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Providing a helping hand in various areas including education, medical assistance and community support.
-            </p>
+              Aimed at fostering environmental consciousness and empowering young individuals to take active roles in creating a sustainable future.</p>
           </div>
         </div>
         <div>
@@ -35,7 +35,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Providing a helping hand in various areas including education, medical assistance and community support.
+              We provide a quick-response platform to facilitate cultural recycling procedures and immediate responses to recycling-related challenges. 
             </p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Extending a helping hand to our local communities through impactful outreach initiatives.
+              We encourage ecological conversion through planting and monitoring of trees on campus.  
             </p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Fueling dreams with opportunities through grants and scholarships for aspiring minds.
+              Committed to a sustainable system of proper waste management which includes the exploration options for value creation. 
             </p>
           </div>
         </div>
@@ -78,8 +78,8 @@ const About = () => {
             alt="Vector Image"
             quality={100}
             sizes={'100vw'}
-            style={{width:'100%', objectFit:'cover', height:'auto'}}
-           
+            style={{ width: '100%', objectFit: 'cover', height: 'auto' }}
+
           />
         </div>
         <div
@@ -107,7 +107,9 @@ const About = () => {
             Greenhub Foundation is a non-profit organization based in UNILAG, Akoka. We are dedicated to...
           </p> */}
           <p>At Greenhub Foundation, {`we're `} passionate about waste management and transforming waste to wealth.</p>
-          <button style={{ color: 'white' }} onClick={() => push('/')}>KNOW MORE</button>
+          <button style={{ color: 'white' }}>
+            <Link href='/volunteer'>KNOW MORE</Link>
+          </button>
         </div>
       </div>
     </div>

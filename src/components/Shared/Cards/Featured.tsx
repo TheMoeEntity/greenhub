@@ -26,7 +26,7 @@ const FeaturedCard = ({
       </div>
       <div className={styles.deets}>
         <Link href={'/events/events'}>
-          <h5>
+          <h5 className="font-semibold text-2xl">
             {title}
           </h5>
         </Link>
