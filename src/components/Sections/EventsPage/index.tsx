@@ -2,7 +2,7 @@
 import './style.css'
 import event from '../../../../public/images/sust-2.jpeg'
 import event2 from '../../../../public/images/sustainability-1.0.jpeg'
-import event3 from '../../../../public/images/img_6971.jpg'
+import event3 from '../../../../public/images/IMG_6971.jpg'
 import Image from 'next/image'
 import { useClientMediaQuery } from '@/Helpers/hooks/useClientMediaQuery'
 
