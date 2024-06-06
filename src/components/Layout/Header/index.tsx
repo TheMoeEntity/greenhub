@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../../../public/images/Group-1.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
     return (
@@ -21,7 +22,7 @@ const Header = () => {
                 </div>
             </div>
             <div className='flex py-10 justify-around items-center bg-[#273527] text-white'>
-                <div className='w-[35%] md:w-[11%]'>
+                <Link href='/' className='w-[35%] md:w-[11%]'>
                     <Image
                         src={logo}
                         alt="UNILAG LOGO"
@@ -29,13 +30,13 @@ const Header = () => {
                         sizes={'100vw'}
                         className="object-cover w-full h-auto "
                     />
-                </div>
-                <div className='md:flex hidden gap-x-8'>
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Volunteer</span>
-                    <span>Gallery</span>
-                    <span>Contact</span>
+                </Link>
+                <div className='md:flex hidden gap-x-8 '>
+                    <Link href={'/'} className='text-white'>Home</Link>
+                    <Link href={'/about'} className='text-white'>About</Link>
+                    <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
+                    <Link href={'/gallery'} className='text-white'>Gallery</Link>
+                    <Link href={'/contact'} className='text-white'>Contact</Link>
                 </div>
                 <div className='md:hidden'>
                     <button><i className='fas fa-bars text-3xl'></i></button>
