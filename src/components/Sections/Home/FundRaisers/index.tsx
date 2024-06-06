@@ -1,11 +1,10 @@
 'use client'
 import { eventCard } from '@/Helpers/types'
-import styles from '../../../app/page.module.css'
-import FeaturedCard from '../../Shared/Cards/Featured'
-import Link from 'next/link'
-import essay from '../../public/images/Picture1.png'
-import medical from '../../../../public/images/Picture2.png'
-import sustainablity from '../../../../public/images/greenhub.jpg'
+import styles from '../../../../app/page.module.css'
+import FeaturedCard from '../../../Shared/Cards/Featured'
+import medical from '../../../../../public/images/sust-2.jpeg'
+import hangout from '../../../../../public/images/summer-hangout.png'
+import sustainablity from '../../../../../public/images/sustainability-1.0.jpeg'
 
 const FundRaisers = () => {
     const content: eventCard[] = [
@@ -22,10 +21,16 @@ const FundRaisers = () => {
             content: "Short detail on the sustainablity 2.0 event. ",
             comingSoon: true
         },
+        {
+            img: hangout,
+            title: "2023 Children Summer Sustainability Hangout",
+            content: "Short detail on the GreenHub Summer Hangout. ",
+            comingSoon: true
+        },
     ]
     return (
-        <div className={styles.funds}>
-            <div className="container">
+        <div className={`${styles.funds} mx-auto`}>
+            <div className="container mb-10">
                 <div className="row mb-3 justify-content-center">
                     <div className="col-md-8 text-center">
                         <h2 className='text-3xl font-extrabold'>Latest Events</h2>
@@ -34,7 +39,7 @@ const FundRaisers = () => {
                 </div>
             </div>
 
-            <div className={`${styles.grid} flex`}>
+            <div className={`md:pl-16 lg:pl-20 flex`}>
                 <ul className="px-0 py-0 flex no-scrollbar relative overflow-scroll d-flex w-full mb-5">
                     {content.map((x, i) => (
                         <li

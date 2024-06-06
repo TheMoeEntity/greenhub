@@ -31,7 +31,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto p-8 rounded-3xl text-gray-800 bg-white shadow-2xl ">
+                        className="aspect-auto p-8 rounded-3xl text-gray-800 bg-white shadow-xl ">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar" width="400" height="400" loading="lazy" />
                             <div>
@@ -49,7 +49,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto text-gray-900 p-8  rounded-3xl bg-white shadow-2xl shadow-gray-600/10 ">
+                        className="aspect-auto text-gray-900 p-8  rounded-3xl bg-white shadow-xl shadow-gray-600/10 ">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/14.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
                             <div>
@@ -64,7 +64,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto p-8  rounded-3xl bg-white  shadow-2xl">
+                        className="aspect-auto p-8  rounded-3xl bg-white  shadow-xl">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/18.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
                             <div>
@@ -80,7 +80,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto p-8 border rounded-3xl bg-white shadow-2xl">
+                        className="aspect-auto p-8 border rounded-3xl bg-white shadow-xl">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/2.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
                             <div>
@@ -96,7 +96,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto p-8 rounded-3xl bg-white shadow-2xl shadow-gray-600/10">
+                        className="aspect-auto p-8 rounded-3xl bg-white shadow-xl shadow-gray-600/10">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/62.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
                             <div>
@@ -112,12 +112,12 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto p-8 rounded-3xl bg-white border-gray-700 shadow-2xl shadow-gray-600/10">
+                        className="aspect-auto p-8 rounded-3xl bg-white border-gray-700 shadow-xl shadow-gray-600/10">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/19.jpg" alt="user avatar" width="400" height="400" loading="lazy" />
                             <div>
-                                <h6 className="text-lg font-medium text-gray-700 text-white">Yanndy Doe</h6>
-                                <p className="text-sm text-gray-500 text-gray-300">Mobile dev</p>
+                                <h6 className="text-lg font-medium text-gray-700">Yanndy Doe</h6>
+                                <p className="text-sm text-gray-500 ">Mobile dev</p>
                             </div>
                         </div>
                         <p className="mt-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto laboriosam deleniti

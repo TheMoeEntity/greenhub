@@ -1,9 +1,9 @@
 'use client'
 import styles from "./index.module.css";
 import Image from "next/image";
-import man from "../../../../public/images/IMG_6980.jpg";
+import man from "../../../../../public/images/IMG_6980.jpg";
 import { useRouter } from "next/navigation";
-import shape from "../../../../public/images/shape-1.png";
+import shape from "../../../../../public/images/shape-1.png";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import { useReveal } from "@/Helpers/hooks";
@@ -11,7 +11,7 @@ const About = () => {
   const { push, visible, ref } = useReveal(useInView)
 
   return (
-    <div className={styles.about}>
+    <div className={`${styles.about} max-w-7xl mx-auto`}>
       <div className={styles.cards}>
         <div>
           <div style={{ width: "60px", height: "60px", fontSize: '40px' }}>

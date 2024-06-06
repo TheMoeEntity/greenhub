@@ -25,11 +25,11 @@ const FeaturedCard = ({
         />
       </div>
       <div className={styles.deets}>
-        <div>
+        <Link href={'/events/events'}>
           <h5>
             {title}
           </h5>
-        </div>
+        </Link>
         <div><p>{content}</p></div>
         <div style={{ color: "gray" }}>
           {/* $23,000 raised */}
