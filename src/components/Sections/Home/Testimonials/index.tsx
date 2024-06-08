@@ -2,14 +2,6 @@
 import React, { CSSProperties, useState } from "react";
 
 export default function Testimonials() {
-    const buttonStyles: CSSProperties = {
-        background: '#0C4949',
-        color: 'white',
-        padding: '6px 10px',
-        border: 'none',
-        borderRadius: '4px',
-        marginTop: '5px'
-    }
     const [status, setStatus] = useState("")
     const openVideo = (): void => {
         setStatus("Video currently unavailable.")
@@ -49,7 +41,7 @@ export default function Testimonials() {
 
 
                     <div
-                        className="aspect-auto text-gray-900 p-8  rounded-3xl bg-white shadow-xl shadow-gray-600/10 ">
+                        className=" text-gray-900 p-8  rounded-3xl bg-white shadow-xl shadow-gray-600/10 ">
                         <div className="flex gap-4">
                             <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/14.jpg" alt="user avatar" width="200" height="200" loading="lazy" />
                             <div>
