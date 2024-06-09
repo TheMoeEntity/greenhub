@@ -18,7 +18,7 @@ const About_Us = () => {
                             The UNILAG GREEN HUB is your go-to learning center for everything you need to know about circular economy, environmental sustainability, waste management, climate change and carbon literacy. We empower young people and vulnerable communities to turn waste to wealth and to advocate for better ESG policies. We work hand-in-hand with eco-conscious organizations in the University of Lagos towards achieving a cleaner, greener, inclusive and sustainable environment for all.
                         </p>
                         <p className='w-full leading-loose text-sm'>
-                            Founded in 2022, the Green Hub is an artifice of the University's commitment to environmental sustainability and education across the campus. Driven by the mission to protect the environment, we engage the young, bright minds of our students and volunteers to think and act sustainably, create value from waste and facilitate the achievement of a circular economy.
+                            Founded in 2022, the Green Hub is an artifice of the University&#39;s commitment to environmental sustainability and education across the campus. Driven by the mission to protect the environment, we engage the young, bright minds of our students and volunteers to think and act sustainably, create value from waste and facilitate the achievement of a circular economy.
                         </p>
                         <p className='w-full leading-loose text-sm'>
                             The Green Hub is committed to environmental literacy and stewardship, as every avenue to educate others is taken and all individual and collective efforts towards sustainability are duly rewarded.
