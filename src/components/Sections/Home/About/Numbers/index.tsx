@@ -5,7 +5,7 @@ const Numbers = () => {
         <div className='p-8 mt-20 max-w-[1450px] mx-auto w-full'>
             <div className="flex flex-col lg:flex-row justify-center gap-6">
                 <div className="flex-1">
-                    <h1 className='text-[40px] md:text-[45px] text-left leading-tight font-semibold'>We Have Had a Great Impact On Our Environment.</h1>
+                    <h1 className='text-[40px] md:text-[45px] text-left leading-tight font-semibold'>We Have Had Great Impact On Our Environment.</h1>
                     <p className='pt-10'>
                         Since our inception in 2022, we have been able to achieve some remarkable feats.
                     </p>

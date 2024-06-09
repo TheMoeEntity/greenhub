@@ -107,7 +107,7 @@ const About = () => {
             Greenhub Foundation is a non-profit organization based in UNILAG, Akoka. We are dedicated to...
           </p> */}
           <p>At Greenhub Foundation, {`we're `} passionate about waste management and transforming waste to wealth.</p>
-          <button style={{ color: 'white' }}>
+          <button className="text-white bg-[#71cd6c]">
             <Link href='/volunteer'>KNOW MORE</Link>
           </button>
         </div>

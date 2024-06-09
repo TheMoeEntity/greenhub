@@ -2,7 +2,7 @@ import Hero from '@/src/components/Shared/Hero'
 import Image from 'next/image'
 import React from 'react'
 import greenhub from '../../../../public/images/IMG_6972.jpg'
-import Numbers from '@/src/components/Sections/Volunteer/Numbers'
+import Numbers from '@/src/components/Sections/Home/About/Numbers'
 import Link from 'next/link'
 
 const About_Us = () => {

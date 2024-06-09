@@ -86,7 +86,7 @@ const Contact = () => {
                             ></textarea>
                         </div>
                         <div className='mt-5'>
-                            <button className=' bg-black text-white px-12 py-4'>SEND MESSAGE</button>
+                            <button className='text-white bg-[#71cd6c] px-12 py-4'>SEND MESSAGE</button>
                         </div>
                     </form>
                 </div>

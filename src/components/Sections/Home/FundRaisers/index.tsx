@@ -20,7 +20,7 @@ const FundRaisers = () => {
             title: "GreenHub Sustainability 2.0",
             content: "Short detail on the sustainablity 2.0 event. ",
             comingSoon: false,
-            slug:'greenhub-sustainability-2.0'
+            slug: 'greenhub-sustainability-2.0'
         },
         {
             img: hangout,
@@ -35,8 +35,8 @@ const FundRaisers = () => {
             <div className="container mb-10">
                 <div className="row mb-3 justify-content-center">
                     <div className="col-md-8 text-center">
-                        <h2 className='text-3xl font-extrabold'>Latest Events</h2>
-                        <p className="lead">These are our latest events and projects</p>
+                        <h2 className='text-3xl lg:text-[40px] font-extrabold'>Latest Events</h2>
+                        <p className="lead text-xl">These are our latest events and projects</p>
                     </div>
                 </div>
             </div>

@@ -14,11 +14,11 @@ const Header = () => {
                         <a href="https://www.facebook.com/oluwaseun.adeyemi.3" target="_blank" rel="noreferrer" className='text-[#CECECE]'>greenhubunilag@gmail.com </a>
                     </span>
                 </div>
-                <div className='gap-x-7 flex invisible'>
-                    <a href=""><i className='fa-brands fa-facebook'></i></a>
-                    <a href=""><i className='fa-brands fa-twitter'></i></a>
-                    <a href=""><i className='fa-brands fa-instagram'></i></a>
-                    <a href=""><i className='fa-brands fa-linkedin'></i></a>
+                <div className='gap-x-7 flex'>
+                    <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-facebook text-[#CECECE]'></i></a>
+                    <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-twitter text-[#CECECE]'></i></a>
+                    <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-instagram text-[#CECECE]'></i></a>
+                    <a href="https://www.linkedin.com/company/unilag-green-hub/" target='_blank'><i className='fa-brands fa-linkedin text-[#CECECE]'></i></a>
                 </div>
             </div>
             <div className='flex py-10 justify-around items-center bg-[#273527] text-white'>
