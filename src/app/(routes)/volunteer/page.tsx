@@ -129,7 +129,7 @@ const Get_Involved = () => {
                         <h1 className="font-semibold text-3xl lg:text-[35px]">Join us at UNILAG GREEN HUB</h1>
                         <div className='w-11 mt-2 h-[3px] bg-[#71CD6C]'></div>
                         <p className='w-full md:mt-4 leading-loose text-sm'>
-                            At UNILAG Green Hub, we're driven by a passion for environmental stewardship and a commitment to empowering students to become agents of positive change. Through a dynamic blend of experiential learning, impactful advocacy campaigns, proactive policy engagement, and the promotion of sustainable practices, we're shaping the next generation of environmental leaders.</p>
+                            At UNILAG Green Hub, we&#39;re driven by a passion for environmental stewardship and a commitment to empowering students to become agents of positive change. Through a dynamic blend of experiential learning, impactful advocacy campaigns, proactive policy engagement, and the promotion of sustainable practices, we&#39;re shaping the next generation of environmental leaders.</p>
                         <p className='w-full md:mt-4 leading-loose text-sm'>
                             As an institution-based and student-driven center, UNILAG Green Hub serves as a vibrant nexus for environmental innovation and action within the university community. By fostering a culture of environmental awareness and action, we aim to not only enrich campus life but also contribute to broader efforts for a greener, more sustainable future.
                         </p>

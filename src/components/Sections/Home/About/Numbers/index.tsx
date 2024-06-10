@@ -45,13 +45,13 @@ const Numbers = () => {
                         </div>
                     </div>
                     <div className="flex flex-1 flex-col mt-12 gap-10 ">
-                        <div className="w-full min-w-[268px] max-w-[300px]">
+                        <div className="w-full min-w-[268px] lg:max-w-[300px]">
                             <div className=" bg-[#71CD6C] shadow rounded-xl px-8 py-12 text-center flex flex-col gap-3">
                                 <b className='text-[40px] font-semibold'>100+</b>
                                 <span className=''>Tons of CO<sub>2</sub> emissions prevented</span>
                             </div>
                         </div>
-                        <div className="w-full min-w-[268px] max-w-[300px]">
+                        <div className="w-full min-w-[268px] lg:max-w-[300px]">
                             <div className=" bg-[#F8F4F0 shadow rounded-xl px-8 py-12 text-center flex flex-col gap-3">
                                 <b className='text-[40px] font-semibold'>₦27M</b>
                                 <span className=''>In collaboration funding</span>
