@@ -10,7 +10,7 @@ const About_Us = () => {
         <main>
             <Hero text='About Us' />
             <div className="py-10 mx-auto max-w-[1450px]">
-                <div className="w-full flex gap-10 lg:flex-row flex-col md:gap-5 p-5 md:p-8 flex-wrap">
+                <div className="w-full flex gap-10 lg:flex-row flex-col p-5 md:p-8">
                     <div className='flex lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
                         <h1 className="font-semibold text-3xl lg:text-[35px]">About UNILAG GREEN HUB</h1>
                         <div className='w-11 mt-2 h-[3px] bg-[#71CD6C]'></div>
@@ -37,9 +37,6 @@ const About_Us = () => {
                 </div>
                 <div className='lg:px-10'>
                     <Numbers />
-                </div>
-                <div>
-                    
                 </div>
             </div>
         </main>

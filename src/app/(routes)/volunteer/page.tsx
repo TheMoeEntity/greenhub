@@ -4,6 +4,7 @@ import vc from '../../../../public/images/VC-2.png'
 import avatar from '../../../../public/images/IMG_6975.jpg'
 import avatar2 from '../../../../public/images/IMG_6975.jpg'
 import Hero from '@/src/components/Shared/Hero'
+import ig from '../../../../public/images/Greenhub_IG.jpeg'
 import Link from 'next/link'
 
 const Get_Involved = () => {
@@ -26,8 +27,9 @@ const Get_Involved = () => {
                         <span className='font-semibold text-xl'>VOLUNTEER AT GREENHUB</span>
                         <h1 className="font-semibold text-3xl lg:text-[35px]">A message from the Vice Chancellor</h1>
                         <p className='w-full md:mt-8 text-sm leading-loose italic text-justify'>
-                            &#34; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium esse accusamus dicta id vitae possimus atque nobis saepe fugit earum! Impedit, neque. Aliquam, perferendis enim. Modi quas eligendi minus, necessitatibus, laboriosam, magnam qui ipsa atque enim corporis architecto illum quo possimus nisi nihil eveniet reiciendis blanditiis eaque porro culpa voluptatum natus pariatur. Minima, adipisci distinctio.
-                            &#34;
+                            <i className='fas fa-quote-left text-2xl'></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium esse accusamus dicta id vitae possimus atque nobis saepe fugit earum! Impedit, neque. Aliquam, perferendis enim. Modi quas eligendi minus, necessitatibus, laboriosam, magnam qui ipsa atque enim corporis architecto illum quo possimus nisi nihil eveniet reiciendis blanditiis eaque porro culpa voluptatum natus pariatur. Minima, adipisci distinctio.
+                            voluptatum natus pariatur. Minima, adipisci distinctio.  voluptatum natus pariatur. Minima, adipisci distinctio.
+                            <i className='fas fa-quote-right ml-3 text-2xl'></i>
                         </p>
                         <span className='text-xl font-semibold mt-5'>- Prof Folasade Ogunsola.</span>
                     </div>
@@ -122,10 +124,39 @@ const Get_Involved = () => {
                         <i className='md:basis-[45%] lg:basis-[20%] flex flex-col gap-5 border-[#CCCFC9] rounded-xl lg:hidden' aria-hidden></i>
                     </div>
                 </div>
+                <div className="w-full flex gap-10 lg:flex-row flex-col p-5 md:p-8">
+                    <div className='flex lg:px-5 text-justify flex-col gap-3 flex-wrap flex-1 basis-full lg:basis-[47%]'>
+                        <h1 className="font-semibold text-3xl lg:text-[35px]">Join us at UNILAG GREEN HUB</h1>
+                        <div className='w-11 mt-2 h-[3px] bg-[#71CD6C]'></div>
+                        <p className='w-full md:mt-4 leading-loose text-sm'>
+                            At UNILAG Green Hub, we're driven by a passion for environmental stewardship and a commitment to empowering students to become agents of positive change. Through a dynamic blend of experiential learning, impactful advocacy campaigns, proactive policy engagement, and the promotion of sustainable practices, we're shaping the next generation of environmental leaders.</p>
+                        <p className='w-full md:mt-4 leading-loose text-sm'>
+                            As an institution-based and student-driven center, UNILAG Green Hub serves as a vibrant nexus for environmental innovation and action within the university community. By fostering a culture of environmental awareness and action, we aim to not only enrich campus life but also contribute to broader efforts for a greener, more sustainable future.
+                        </p>
+                        <p className='w-full leading-loose text-sm'>
+                            Founded in 2022, the Green Hub is an artifice of the University&#39;s commitment to environmental sustainability and education across the campus. Driven by the mission to protect the environment, we engage the young, bright minds of our students and volunteers to think and act sustainably, create value from waste and facilitate the achievement of a circular economy.
+                        </p>
+                        <p className='w-full leading-loose text-sm'>
+                            Join us in our mission to create a healthier planet for current and future generations.
+                        </p>
+                    </div>
+                    <div className="basis-full lg:basis-[45%] lg:p-5 flex justify-center items-center">
+                        <div className="w-full">
+                            <Image
+                                src={ig}
+                                alt="Unilag VC"
+                                quality={100}
+                                sizes={'100vw'}
+                                className="object-cover w-full h-auto "
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div className=" items-center flex flex-col gap-3">
-                    <h1 className="font-semibold my-10 text-center text-3xl lg:text-[40px] leading-tight mx-auto lg:w-[80%]">Ready to become a Volunteer and join Our Commitment to a greener UNILAG?</h1>
+                    <h1 className="font-semibold my-10 text-center text-3xl lg:text-[35px] leading-tight mx-auto lg:w-[70%]">Ready to become a Volunteer and join Our Commitment to a greener UNILAG?</h1>
                     <a href={'/volunteer'} className='p-5 mt-3 text-white bg-[#71cd6c] w-fit text-xl rounded-md'>BECOME A VOLUNTEER</a>
                 </div>
+
             </div>
         </section>
     )

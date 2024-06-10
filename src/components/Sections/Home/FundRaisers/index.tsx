@@ -5,9 +5,17 @@ import FeaturedCard from '../../../Shared/Cards/Featured'
 import medical from '../../../../../public/images/sust-2.jpeg'
 import hangout from '../../../../../public/images/summer-hangout.png'
 import sustainablity from '../../../../../public/images/sustainability-1.0.jpeg'
+import unveiling from '../../../../../public/images/greenhub_unveiling.jpeg'
 
 const FundRaisers = () => {
     const content: eventCard[] = [
+        {
+            img: unveiling,
+            title: "The Unveiling of UNILAG GREENHUB",
+            content: "Short detail on the event of the unveiling of greenhub ",
+            comingSoon: false,
+            slug: 'greenhub-unveiling'
+        },
         {
             img: sustainablity,
             title: "GreenHub Sustainability 1.0",
