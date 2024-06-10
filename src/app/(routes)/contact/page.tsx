@@ -6,7 +6,7 @@ const Contact = () => {
         <div>
             <Hero text='CONTACT US' />
             <div className="w-full mx-auto max-w-[1450px] flex gap-10 py-10 lg:py-20 px-5 md:px-8 flex-wrap">
-                <div className="flex basis-full lg:basis-[30%] flex-col gap-5">
+                <div className="flex basis-full lg:basis-[30%] md:px-5 flex-col gap-5">
                     <div className="">
                         <h2 className='font-semibold text-2xl'>
                             BEFORE CONTACTING US
@@ -48,17 +48,17 @@ const Contact = () => {
                         <div className='flex flex-col gap-8 md:flex-row justify-between'>
                             <div className='md:w-[48%] flex flex-col gap-1'>
                                 <label htmlFor="" className='text-xl'>Full name <span className='text-red-700'>*</span></label>
-                                <input type="text" className=' py-3 px-2 bg-[#F1F1F1] outline-none' placeholder='Enter your full name' />
+                                <input type="text" className=' py-4 px-5 bg-[#F1F1F1] outline-none' placeholder='Enter your full name' />
                             </div>
                             <div className='md:w-[48%] flex flex-col gap-1'>
                                 <label htmlFor="" className='text-xl'>Email <span className='text-red-700'>*</span></label>
-                                <input type="text" className=' py-3 px-2 bg-[#F1F1F1] outline-none' placeholder='Enter your email address' />
+                                <input type="text" className=' py-4 px-5 bg-[#F1F1F1] outline-none' placeholder='Enter your email address' />
                             </div>
                         </div>
                         <div className="flex flex-col md:flex-row gap-8 justify-between">
                             <div className='md:w-[48%] flex flex-col gap-1'>
                                 <label htmlFor="" className='text-xl'>Phone</label>
-                                <input type="number" className=' py-3 px-2 bg-[#F1F1F1] outline-none' placeholder='Enter your phone number' />
+                                <input type="number" className=' py-4 px-5 bg-[#F1F1F1] outline-none' placeholder='Enter your phone number' />
                             </div>
                             <div className='md:w-[48%] flex flex-col gap-1'>
                                 <label htmlFor="" className='text-xl'>Subject <span className='text-red-700'>*</span></label>
@@ -67,8 +67,9 @@ const Contact = () => {
                                     style={{ width: "80%", padding: '10px 0px', color: 'gray' }}
                                 >
                                     <option>--Choose--</option>
-                                    <option>Web Development</option>
-                                    <option>Mobile Development</option>
+                                    <option>Sponsorship</option>
+                                    <option>Enquiries</option>
+                                    <option>I want to become a volunteer</option>
                                     <option>Collaboration</option>
                                     <option>Other</option>
                                 </select>

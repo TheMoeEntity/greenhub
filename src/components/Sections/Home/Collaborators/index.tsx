@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 const Collaborators = () => {
     return (
-        <section className="bg-white py-20">
+        <section className="bg-white py-10">
             <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
                 <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-black md:text-4xl">Our Collaborators</h2>
                 <div className="flex flex-col justify-center md:flex-row md:gap-4 lg:gap-5 flex-wrap">

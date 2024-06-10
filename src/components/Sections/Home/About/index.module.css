@@ -7,8 +7,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  padding-bottom: 20px;
+  padding: 80px 0;
   position: relative;
 }
 
@@ -26,11 +25,9 @@
   display: flex;
   flex-flow: row wrap;
   margin-top: -150px;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
   z-index: 1000;
   transition: 0.5s;
-  /* box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2),
-    2.5px -9px 35px 0 rgba(143, 143, 143, 0.2); */
 }
 
 .cards>div {
@@ -56,6 +53,7 @@
 .cards>div>div p {
   font-size: 16.5px;
   line-height: 1.7;
+  font-weight: light;
 }
 
 .cards>div:nth-child(even) {
@@ -124,7 +122,6 @@
 }
 
 .main>div:nth-child(1) {
-  height: 500px;
   transition: 0.88s;
   transform: translateY(-300px);
   opacity: 0;
@@ -176,7 +173,7 @@
 
 .main>div h2 {
   font-size: xx-large;
-  margin-top: 30px;
+  margin-top: 10px;
   line-height: 1.23;
 }
 
@@ -213,43 +210,11 @@
 }
 
 .about button {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 15px 30px;
   border: none;
   font-weight: bolder;
   display: block;
-}
-
-@media screen and (max-width: 1042px) {
-  .cards {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 922px) {
-  .cards {
-    width: 80%;
-    /* margin-bottom:750px; */
-    box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2),
-      2.5px -9px 35px 0 rgba(143, 143, 143, 0.2);
-  }
-
-  .cards>div {
-    flex: 100%;
-  }
-}
-
-@media screen and (max-width: 542px) {
-  .cards {
-    margin-top: -80px;
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .cards {
-    margin-top: -50px;
-  }
 }
 
 @media screen and (max-width: 1166px) {
@@ -262,18 +227,35 @@
   }
 }
 
+@media screen and (max-width: 1042px) {
+  .cards {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 961px) {
   .main>div {
     flex: 100%;
   }
 
   .main {
-    width: 75%;
+    width: 90%;
   }
 
   .main>div:nth-child(1) {
-    height: 600px;
     margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 922px) {
+  .cards {
+    width: 80%;
+    box-shadow: 5px 9px 15px 0 rgba(143, 143, 143, 0.2),
+      2.5px -9px 35px 0 rgba(143, 143, 143, 0.2);
+  }
+
+  .cards>div {
+    flex: 100%;
   }
 }
 
@@ -283,7 +265,6 @@
   }
 
   .main>div:nth-child(1) {
-    height: 450px;
     margin-bottom: 50px;
   }
 
@@ -295,13 +276,19 @@
   }
 }
 
+@media screen and (max-width: 542px) {
+  .cards {
+    margin-top: -80px;
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .main {
     width: 90%;
   }
 
   .main>div:nth-child(1) {
-    height: 350px;
     margin-bottom: 50px;
   }
 
@@ -311,5 +298,11 @@
 
   .main>div h2 {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards {
+    margin-top: -160px;
   }
 }

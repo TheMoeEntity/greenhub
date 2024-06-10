@@ -22,7 +22,7 @@ const Numbers = () => {
                             Creation of a data system to tracked, collect and recycled over  750,000 plastic bottles within 2 semesters
                         </li>
                         <li>
-                            Prevented over 100 tons of CO2 emissions within 2 semesters
+                            Prevented over 100 tons of CO<sub>2</sub> emissions within 2 semesters
                         </li>
                         <li>
                             Activated community based incentive of over 700 participants across all stakeholders.
