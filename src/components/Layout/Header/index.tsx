@@ -10,13 +10,13 @@ const Header = () => {
         <div className='lg:absolutse top-0 left-0 w-full'>
             <div className="w-full py-5 gap-y-5 text-sm bg-[#151C1F] flex flex-col md:flex-row font-light text-[#CECECE] justify-center items-center md:justify-around">
                 <div className='flex  flex-col md:flex-row gap-y-3 text-center gap-x-4'>
-                    <span>Phone: (+234) 701 499 9228 </span>
+                    <span>(+234) 701 499 9228 </span>
                     <span className='hidden md:block'>|</span>
                     <span>
                         <a href="https://www.facebook.com/oluwaseun.adeyemi.3" target="_blank" rel="noreferrer" className='text-[#CECECE]'>greenhubunilag@gmail.com </a>
                     </span>
                 </div>
-                <div className='gap-x-7 flex'>
+                <div className='gap-x-7 flex text-xl'>
                     <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-facebook text-[#CECECE]'></i></a>
                     <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-twitter text-[#CECECE]'></i></a>
                     <a href="https://instagram.com/unilaggreenhub" target='_blank'><i className='fa-brands fa-instagram text-[#CECECE]'></i></a>
@@ -33,7 +33,7 @@ const Header = () => {
                         className="object-cover w-full h-auto "
                     />
                 </Link>
-                <div className='md:flex hidden gap-x-8 '>
+                <div className='md:flex hidden gap-x-8'>
                     <Link href={'/'} className='text-white'>Home</Link>
                     <Link href={'/about'} className='text-white'>About</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
