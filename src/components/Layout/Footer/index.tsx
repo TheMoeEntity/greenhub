@@ -11,10 +11,10 @@ const Footer = () => {
                     <div className={styles.logo}>
                         UNILAG GREENHUB
                     </div>
-                    <p> Greencal Foundation: Where Compassion Meets Need
-
+                    <p>
+                        Your go-to learning center for everything you need to know about circular economy, environmental sustainability, waste management, climate change and carbon literacy
                     </p>
-                    <strong>Opening Hours :</strong> Monday Sat: 8am to 5pm
+                    <strong>Opening Hours :</strong> Monday - Friday: 8am to 5pm
 
                     <div className={styles.icons}>
                         <i className="fa-brands fa-facebook"></i>
@@ -23,32 +23,24 @@ const Footer = () => {
                         <i className="fa-brands fa-instagram"></i>
                     </div>
                 </div>
-                <div>
-                    <h2 style={{ marginLeft: '30px' }}>CONTACT INFO</h2>
-                    <div>
-                        <div>
-                            <i style={{ fontSize: '20px' }} className="fas fa-map-marker"></i>
-                        </div>
-                        <div>Opinion Nigeria LTD prince and princess ishieke Abakaliki</div>
-                    </div>
-
-                    <div>
-                        <div>
-                            <i style={{ fontSize: '20px' }} className="fa-solid fa-phone"></i>
-
-                        </div>
-                        <div>
-                            (+234) 811 617 7509 &nbsp; (234) 803 656 5354
-                        </div>
-                    </div>
-                    <div>
-                        <div style={{ width: '50px' }} className={styles.footerIcons}>
-                            <i style={{ fontSize: '20px' }} className="fa-solid fa-envelope"></i>
-                        </div>
-                        <div>
-                            greencalfoundation@gmail.com</div>
-                    </div>
+                <div className="">
+                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+                    <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Discord Server</a>
+                        </li>
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Twitter</a>
+                        </li>
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Facebook</a>
+                        </li>
+                        <li className="mb-4">
+                            <a href="#" className="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
                 </div>
+
                 <div>
                     <h2>OUR ACTIVITIES</h2>
                     <div>
