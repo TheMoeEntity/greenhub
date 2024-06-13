@@ -3,6 +3,9 @@ import Image from 'next/image'
 import React from 'react'
 import greenhub from '../../../../public/images/IMG_6972.jpg'
 import Numbers from '@/src/components/Sections/Home/About/Numbers'
+import unigreenhub from '../../../../public/images/UNILAG-GREEN-HUB-8-1.png'
+import recycled from '../../../../public/images/RECYCLED-MATERIALS.png'
+import interior from '../../../../public/images/IMG_9680-2048x1365.jpeg'
 import Link from 'next/link'
 
 const About_Us = () => {
@@ -33,6 +36,44 @@ const About_Us = () => {
                             sizes={'100vw'}
                             className="object-cover w-full h-auto "
                         />
+                    </div>
+                </div>
+                <div className="flex flex-col lg:flex-row gap-8 justify-center p-5 md:p-8">
+                    <div className="basis-full xl:basis-[30%] flex flex-col gap-4">
+                        <div>
+                            <Image
+                                src={unigreenhub}
+                                alt="Unilag VC"
+                                quality={100}
+                                sizes={'100vw'}
+                                className="object-cover w-full h-auto "
+                            />
+                        </div>
+                        <span className='font-extrabold text-xl'>Think Green</span>
+                    </div>
+                    <div className="basis-full xl:basis-[30%] flex flex-col gap-4">
+                        <div>
+                            <Image
+                                src={recycled}
+                                alt="Unilag VC"
+                                quality={100}
+                                sizes={'100vw'}
+                                className="object-cover w-full h-auto "
+                            />
+                        </div>
+                        <span className='font-extrabold text-xl'>Made from recycled materials</span>
+                    </div>
+                    <div className="basis-full xl:basis-[30%] flex flex-col gap-4">
+                        <div>
+                            <Image
+                                src={interior}
+                                alt="Unilag VC"
+                                quality={100}
+                                sizes={'100vw'}
+                                className="object-cover w-full h-auto "
+                            />
+                        </div>
+                        <span className='font-extrabold text-xl'>UNILAG GREEN HUB</span>
                     </div>
                 </div>
                 <div className='lg:px-10'>
