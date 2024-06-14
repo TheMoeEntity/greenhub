@@ -25,12 +25,12 @@ const Get_Involved = () => {
                             className="object-cover w-full h-auto "
                         />
                     </div>
-                    <div className='flex lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
+                    <div className='flex order-2 md:order-1 lg:px-10 flex-col gap-5 flex-wrap flex-1 basis-full md:basis-[47%]'>
                         <span className='font-semibold text-xl'>VOLUNTEER AT GREENHUB</span>
-                        <h1 className="font-semibold text-3xl lg:text-[35px]">A message from the Vice Chancellor</h1>
+                        <h1 className="font-medium text-3xl lg:text-[35px]">A message from the Vice Chancellor</h1>
                         <p className='w-full md:mt-8 text-sm leading-[1.7] italic text-justify'>
                             <i className='fas fa-quote-left text-2xl'></i>
-                            University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
+                            {" "}University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
                             <br /> <br />
                             As the melting pot of the society, we strongly believe in diversity and, therefore, provide an atmosphere for an all-inclusive Campus. As a result, we attract quality staff and students who are able to compete at the highest level locally, regionally and globally. This is evident in the over 200,000 highly skilled and knowledgeable graduates we have produced as professionals contributing their quota in their respective endeavours.
                             <i className='fas fa-quote-right ml-3 text-2xl'></i>
@@ -42,7 +42,7 @@ const Get_Involved = () => {
                 <div className='px-5 md:px-0'>
                     <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center md:gap-5 gap-12">
                         <div className="py-5 border-[1px] md:basis-[45%] lg:basis-[20%] hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
-                            <div className='w-full mx-auto h-[150px] lg:h-[250px] md:h-[250px] bg-top bg-cover' style={{ backgroundImage: `url('/images/volunteer-2.jpg')` }}>
+                            <div className='w-full mx-auto h-[350px] lg:h-[250px] md:h-[290px] bg-top bg-cover' style={{ backgroundImage: `url('/images/volunteer-2.jpg')` }}>
                             </div>
                             <hr />
                             <div className="flex flex-col text-center gap-3">
@@ -56,7 +56,7 @@ const Get_Involved = () => {
                             </div>
                         </div>
                         <div className="py-5 hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors border-[1px] md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
-                            <div className='w-full mx-auto h-[150px] lg:h-[250px] md:h-[250px] bg-cover bg-center' style={{ backgroundImage: `url('/images/volunteer-1.jpg')` }}>
+                            <div className='w-full mx-auto h-[350px] lg:h-[250px] md:h-[290px] bg-cover bg-center' style={{ backgroundImage: `url('/images/volunteer-1.jpg')` }}>
                             </div>
                             <hr />
                             <div className="flex flex-col text-center gap-3">
@@ -70,7 +70,7 @@ const Get_Involved = () => {
                             </div>
                         </div>
                         <div className="py-5 border-[1px] hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
-                            <div className='w-full mx-auto h-[150px] lg:h-[250px] md:h-[250px] bg-cover bg-center' style={{ backgroundImage: `url('/images/john.jpeg')` }}>
+                            <div className='w-full mx-auto h-[350px] lg:h-[250px] md:h-[290px] bg-cover bg-center' style={{ backgroundImage: `url('/images/john.jpeg')` }}>
                             </div>
                             <hr />
                             <div className="flex flex-col text-center gap-3">
