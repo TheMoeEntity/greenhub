@@ -28,9 +28,11 @@ const Get_Involved = () => {
                     <div className='flex lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
                         <span className='font-semibold text-xl'>VOLUNTEER AT GREENHUB</span>
                         <h1 className="font-semibold text-3xl lg:text-[35px]">A message from the Vice Chancellor</h1>
-                        <p className='w-full md:mt-8 text-sm leading-loose italic text-justify'>
-                            <i className='fas fa-quote-left text-2xl'></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium esse accusamus dicta id vitae possimus atque nobis saepe fugit earum! Impedit, neque. Aliquam, perferendis enim. Modi quas eligendi minus, necessitatibus, laboriosam, magnam qui ipsa atque enim corporis architecto illum quo possimus nisi nihil eveniet reiciendis blanditiis eaque porro culpa voluptatum natus pariatur. Minima, adipisci distinctio.
-                            voluptatum natus pariatur. Minima, adipisci distinctio.  voluptatum natus pariatur. Minima, adipisci distinctio.
+                        <p className='w-full md:mt-8 text-sm leading-[1.7] italic text-justify'>
+                            <i className='fas fa-quote-left text-2xl'></i>
+                            University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
+                            <br /> <br />
+                            As the melting pot of the society, we strongly believe in diversity and, therefore, provide an atmosphere for an all-inclusive Campus. As a result, we attract quality staff and students who are able to compete at the highest level locally, regionally and globally. This is evident in the over 200,000 highly skilled and knowledgeable graduates we have produced as professionals contributing their quota in their respective endeavours.
                             <i className='fas fa-quote-right ml-3 text-2xl'></i>
                         </p>
                         <span className='text-xl font-semibold mt-5'>- Prof Folasade Ogunsola.</span>
