@@ -2,33 +2,33 @@
 import { eventCard } from '@/Helpers/types'
 import styles from '../../../../app/page.module.css'
 import FeaturedCard from '../../../Shared/Cards/Featured'
-import medical from '../../../../../public/images/sust-2.jpeg'
+import medical from '../../../../../public/images/sus2.jpeg'
 import hangout from '../../../../../public/images/summer-hangout.png'
 import sustainablity from '../../../../../public/images/sustainability-1.0.jpeg'
-import unveiling from '../../../../../public/images/greenhub_unveiling.jpeg'
+import unveiling from '../../../../../public/images/IMG_6972.jpg'
 
 const FundRaisers = () => {
     const content: eventCard[] = [
         {
             img: unveiling,
             title: "The Unveiling of UNILAG GREENHUB",
-            content: "Short detail on the event of the unveiling of greenhub ",
+            content: "The Deputy Vice-Chancellor (Management Services) thereafter led the contingent to the University of Lagos Main Shopping Complex, where the Green Hub is located. <br /><br /> There, as the Vice-Chancellor's representative, Professor Lucian Chukwu formally unveiled the UNILAG Green Hub, a resource centre for the educational awareness of willing...",
             comingSoon: false,
-            slug: 'greenhub-unveiling'
+            slug: 'https://unilag.edu.ng/?p=23190'
         },
         {
             img: sustainablity,
             title: "GreenHub Sustainability 1.0",
-            content: "Short detail on the sustainablity 1.0 event. ",
+            content: "UNILAG Environmental Sustainability Challenge & Recycling Bazar kicked off on Thursday, March 23, 2023 at the Tayo Aderinokun Hall with an Official Opening Ceremony. <br /><br /> Well-attended, the event was graced by hundreds of students and staff of the University of Lagos who found an outlet to express their love for the environment. <br /><br /> The Deputy Vice-Chancellor (Management Services), Professor Lucian Chukwu, represented the Vice-Chancellor at the event. He commended the organisers of the programme for coming up with the idea and for demonstrating that the Future-Ready vision of the Vice-Chancellor for the University of Lagos is a very feasible one. ",
             comingSoon: false,
-            slug: 'greenhub-sustainability-1.0'
+            slug: 'https://www.youtube.com/watch?v=CxVqnVaOB0o'
         },
         {
             img: medical,
             title: "GreenHub Sustainability 2.0",
-            content: "Short detail on the sustainablity 2.0 event. ",
+            content: "The second edition of the University of Lagos Environmental Sustainability Challenge formally kicked off on Wednesday, December 13, 2023 with a campus-wide sensitisation campaign. <br /><br /> Composed of volunteers at the UNILAG Green Hub and some members of the University of Lagos Green Club, the campaign train took off from the Faculty of Science, informing students and passers-by of the commencement of the challenge and the benefits that await them when they sign up for participation. ",
             comingSoon: false,
-            slug: 'greenhub-sustainability-2.0'
+            slug: 'https://unilag.edu.ng/?p=31147'
         },
         {
             img: hangout,

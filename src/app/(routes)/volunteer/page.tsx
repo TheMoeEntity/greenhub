@@ -70,19 +70,12 @@ const Get_Involved = () => {
                             </div>
                         </div>
                         <div className="py-5 border-[1px] hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
-                            <div className='w-full px-3'>
-                                <Image
-                                    src={avatar}
-                                    alt="Asset 1"
-                                    quality={100}
-                                    sizes={'100vw'}
-                                    className="object-cover w-full h-auto"
-                                />
+                            <div className='w-full mx-auto h-[150px] lg:h-[250px] md:h-[250px] bg-cover bg-center' style={{ backgroundImage: `url('/images/john.jpeg')` }}>
                             </div>
                             <hr />
                             <div className="flex flex-col text-center gap-3">
-                                <b className='font-semibold text-2xl'>Mr Chukwudi.</b>
-                                <span>Lecturer</span>
+                                <b className='font-semibold text-xl'>John Akinseloyin</b>
+                                <span>Team Lead, media & communication</span>
                             </div>
                             <div className="flex items-center gap-3">
                                 <div className="flex gap-5 w-full justify-center text-2xl">

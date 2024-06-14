@@ -30,11 +30,11 @@ const FeaturedCard = ({
             {title}
           </h5>
         </Link>
-        <div><p>{content}</p></div>
+        <div><p className="text-xs my-5" dangerouslySetInnerHTML={{ __html: content }}></p></div>
         <div style={{ color: "gray" }}>
           {/* $23,000 raised */}
           <button disabled={comingSoon}>
-            <Link href={'/events/' + slug ?? 'events'}>
+            <Link href={slug ?? ''}>
               {
                 comingSoon ? 'Coming soon..' : "View event"
               }

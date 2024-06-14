@@ -104,8 +104,8 @@ const About = () => {
         </div>
       </div>
       <div className="w-full xl:w-[95%] mx-auto flex gap-10 md:gap-5 px-5 pb-10 flex-wrap">
-        <div className='flex lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
-          <h1 className="font-medium text-3xl lg:text-[35px]">A message from the Vice Chancellor</h1>
+        <div className='flex order-2 md:order-1 lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
+          <h1 className="font-medium text-3xl lg:text-[35px] text-center md:text-left">A message from the Vice Chancellor</h1>
           <p className='w-full md:mt-8 text-sm leading-[1.7] italic text-justify'>
             <i className='fas fa-quote-left text-2xl'></i>
             {" "}University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
@@ -115,7 +115,7 @@ const About = () => {
           </p>
           <span className='text-xl font-semibold mt-5'>- Prof Folasade Ogunsola.</span>
         </div>
-        <div className="basis-full lg:basis-[47%] flex justify-center items-center">
+        <div className="basis-full order-1 md:order-2  lg:basis-[47%] flex justify-center items-center">
           <Image
             src={vc}
             alt="Unilag VC"
