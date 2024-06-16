@@ -54,6 +54,10 @@ const Get_Involved = () => {
                                     <i className="fa-brands fa-facebook"></i><i className="fa-brands fa-twitter"></i><i className="fa-brands fa-linkedin"></i>
                                 </div>
                             </div>
+                            <div className="flex flex-col text-center gap-3 text-sm">
+                                <b className='font-semibold'> Zoology</b>
+                                <span>100L</span>
+                            </div>
                         </div>
                         <div className="py-5 hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors border-[1px] md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
                             <div className='w-full mx-auto h-[350px] lg:h-[250px] md:h-[290px] bg-cover bg-center' style={{ backgroundImage: `url('/images/volunteer-1.jpg')` }}>
@@ -67,6 +71,10 @@ const Get_Involved = () => {
                                 <div className="flex gap-5 w-full justify-center text-2xl">
                                     <i className="fa-brands fa-facebook"></i><i className="fa-brands fa-twitter"></i><i className="fa-brands fa-linkedin"></i>
                                 </div>
+                            </div>
+                            <div className="flex flex-col text-center gap-3 text-sm">
+                                <b className='font-semibold'> Mass Communication</b>
+                                <span>300L</span>
                             </div>
                         </div>
                         <div className="py-5 border-[1px] hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
@@ -82,8 +90,12 @@ const Get_Involved = () => {
                                     <i className="fa-brands fa-facebook"></i><i className="fa-brands fa-twitter"></i><i className="fa-brands fa-linkedin"></i>
                                 </div>
                             </div>
+                            <div className="flex flex-col text-center gap-3 text-sm">
+                                <b className='font-semibold'>Chemistry</b>
+                                <span>400L</span>
+                            </div>
                         </div>
-                        <div className="py-5 hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors border-[1px] md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
+                        {/* <div className="py-5 hover:bg-[var(--ditco-tertiary)] duration-500 transition-colors border-[1px] md:basis-[45%] lg:basis-[20%]  flex flex-col gap-5 border-[#CCCFC9] rounded-xl">
                             <div className='w-full px-3'>
                                 <Image
                                     src={avatar2}
@@ -103,7 +115,7 @@ const Get_Involved = () => {
                                     <i className="fa-brands fa-facebook"></i><i className="fa-brands fa-twitter"></i><i className="fa-brands fa-linkedin"></i>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <i className='md:basis-[45%] lg:basis-[20%] flex flex-col gap-5 border-[#CCCFC9] rounded-xl lg:hidden' aria-hidden></i>
                     </div>
                 </div>
