@@ -33,7 +33,7 @@ const FundRaisers = () => {
         {
             img: hangout,
             title: "2023 Children Summer Sustainability Hangout",
-            content: "Short detail on the GreenHub Summer Hangout. ",
+            content: "The hangout, organised for children who are currently on holiday, is targeted at teaching them about circularity and waste recycling on campus ",
             comingSoon: false,
             slug: 'children-summer-sustainability-hangout'
         },
@@ -49,7 +49,7 @@ const FundRaisers = () => {
                 </div>
             </div>
 
-            <div className={`md:pl-16 lg:pl-20 flex`}>
+            <div className={`md:pl-5 lg:pl-16 flex`}>
                 <ul className="px-0 py-0 flex no-scrollbar relative overflow-scroll d-flex w-full mb-5">
                     {content.map((x, i) => (
                         <li

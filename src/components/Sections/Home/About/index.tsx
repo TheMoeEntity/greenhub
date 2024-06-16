@@ -15,7 +15,7 @@ const About = () => {
   return (
 
     <section className="flex flex-col gap-8">
-      <div className={`${styles.about} -mt-20 max-w-7xl mx-auto mb-10`}>
+      <div className={`${styles.about} -mt-20 max-w-screen mx-auto mb-10`}>
         <div className="flex w-[95%] shadow-xl shadow-cutom-dark rounded-md overflow-hidden justify-center flex-wrap md:w-[90%] mx-auto text-white">
           <div className="basis-full bg-[#2D2418] md:basis-[45%] lg:basis-[25%] gap-8 flex flex-col justify-center p-8">
             <div style={{ width: "60px", height: "60px", fontSize: '40px' }}>
@@ -70,7 +70,30 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="w-full mt-20 xl:w-[95%] mx-auto flex gap-10 md:gap-5 px-5 pb-10 flex-wrap">
+          <div className='flex order-2 md:order-1 lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
+            <h1 className="font-medium text-3xl lg:text-[35px] text-center md:text-left">A message from the Vice Chancellor</h1>
+            <p className='w-full md:mt-8 text-sm leading-[1.7] italic text-justify'>
+              <i className='fas fa-quote-left text-2xl'></i>
+              {" "}University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
+              <br /> <br />
+              As the melting pot of the society, we strongly believe in diversity and, therefore, provide an atmosphere for an all-inclusive Campus. As a result, we attract quality staff and students who are able to compete at the highest level locally, regionally and globally. This is evident in the over 200,000 highly skilled and knowledgeable graduates we have produced as professionals contributing their quota in their respective endeavours.
+              <i className='fas fa-quote-right ml-3 text-2xl'></i>
+            </p>
+            <span className='text-xl font-semibold mt-5'>- Prof Folasade Ogunsola.</span>
+          </div>
+          <div className="basis-full order-1 md:order-2  lg:basis-[47%] flex justify-center items-center">
+            <Image
+              src={vc}
+              alt="Unilag VC"
+              quality={100}
+              sizes={'100vw'}
+              priority
+              className="object-cover w-full h-auto "
+            />
+          </div>
 
+        </div>
         <div className={styles.main}>
           <div
             className={visible ? `justify-center items-center ${styles.man} ${styles.animClass}` : styles.man}
@@ -103,30 +126,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full xl:w-[95%] mx-auto flex gap-10 md:gap-5 px-5 pb-10 flex-wrap">
-        <div className='flex order-2 md:order-1 lg:px-10 flex-col gap-3 flex-wrap flex-1 basis-full md:basis-[47%]'>
-          <h1 className="font-medium text-3xl lg:text-[35px] text-center md:text-left">A message from the Vice Chancellor</h1>
-          <p className='w-full md:mt-8 text-sm leading-[1.7] italic text-justify'>
-            <i className='fas fa-quote-left text-2xl'></i>
-            {" "}University of Lagos is a leading institution dedicated to quality teaching, learning, research and community service. We have over the past few years developed leaders in many disciplines through our various programmes. As the University of First Choice and the Nation&#39;s Pride, we place great premium on the development and welfare of our staff and students both at the undergraduate and postgraduate levels. Since its establishment in 1962, the institution has continued to play a key role in nation building by molding the teeming youth population through its teaching, research and community services.
-            <br /> <br />
-            As the melting pot of the society, we strongly believe in diversity and, therefore, provide an atmosphere for an all-inclusive Campus. As a result, we attract quality staff and students who are able to compete at the highest level locally, regionally and globally. This is evident in the over 200,000 highly skilled and knowledgeable graduates we have produced as professionals contributing their quota in their respective endeavours.
-            <i className='fas fa-quote-right ml-3 text-2xl'></i>
-          </p>
-          <span className='text-xl font-semibold mt-5'>- Prof Folasade Ogunsola.</span>
-        </div>
-        <div className="basis-full order-1 md:order-2  lg:basis-[47%] flex justify-center items-center">
-          <Image
-            src={vc}
-            alt="Unilag VC"
-            quality={100}
-            sizes={'100vw'}
-            priority
-            className="object-cover w-full h-auto "
-          />
-        </div>
 
-      </div>
     </section>
   );
 };

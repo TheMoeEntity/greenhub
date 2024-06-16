@@ -36,6 +36,7 @@ const Header = () => {
                 <div className='md:flex hidden gap-x-8'>
                     <Link href={'/'} className='text-white'>Home</Link>
                     <Link href={'/about'} className='text-white'>About</Link>
+                    <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
                     <Link href={'/gallery'} className='text-white'>Gallery</Link>
                     <Link href={'/contact'} className='text-white'>Contact</Link>
@@ -48,6 +49,7 @@ const Header = () => {
                 <div className='bg-[#151C1F] text-white w-full p-5 flex flex-col gap-8'>
                     <Link href={'/'} className='text-white'>Home</Link>
                     <Link href={'/about'} className='text-white'>About</Link>
+                    <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
                     <Link href={'/gallery'} className='text-white'>Gallery</Link>
                     <Link href={'/contact'} className='text-white'>Contact</Link>
