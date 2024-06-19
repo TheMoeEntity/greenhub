@@ -33,26 +33,28 @@ const Header = () => {
                         className="object-cover w-full h-auto "
                     />
                 </Link>
-                <div className='md:flex hidden gap-x-8'>
+                <div className='lg:flex hidden gap-x-8'>
                     <Link href={'/'} className='text-white'>Home</Link>
                     <Link href={'/about'} className='text-white'>About</Link>
                     <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
                     <Link href={'/gallery'} className='text-white'>Gallery</Link>
                     <Link href={'/contact'} className='text-white'>Contact</Link>
+                    <Link href={'/metrics'} className='text-white'>Sustainability metrics</Link>
                 </div>
-                <div className='md:hidden'>
+                <div className='lg:hidden'>
                     <button onClick={() => setDropDown(!dropDown)}><i className='fas fa-bars text-3xl'></i></button>
                 </div>
             </div>
-            <div className={`lg:hidden transition-all duration-500 overflow-hidden ${dropDown ? 'max-h-96' : 'max-h-0'}`}>
-                <div className='bg-[#151C1F] text-white w-full p-5 flex flex-col gap-8'>
+            <div className={`lg:hidden transition-all duration-500 overflow-hidden ${dropDown ? 'max-h-[450px]' : 'max-h-0'}`}>
+                <div className='bg-[#151C1F] text-white w-full px-5 py-12 flex flex-col gap-8'>
                     <Link href={'/'} className='text-white'>Home</Link>
                     <Link href={'/about'} className='text-white'>About</Link>
                     <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
                     <Link href={'/gallery'} className='text-white'>Gallery</Link>
                     <Link href={'/contact'} className='text-white'>Contact</Link>
+                    <Link href={'/metrics'} className='text-white'>Sustainability metrics</Link>
                 </div>
             </div>
         </div>
