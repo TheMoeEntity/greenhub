@@ -2,7 +2,7 @@
 import Hero from '@/src/components/Shared/Hero'
 import React, { useState } from 'react'
 
-const page = () => {
+const Metrics = () => {
     const dataTypes = [
         { icon: "fas fa-lightbulb", text: "Energy Consumption and Efficiency", isActive: false },
         { icon: "fas fa-leaf", text: "Carbon Footprint", isActive: false },
@@ -52,4 +52,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Metrics
