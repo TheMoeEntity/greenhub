@@ -140,7 +140,7 @@ export default function Testimonials() {
                             </div>
                             {/* <img className="w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/12.jpg" alt="user avatar" width="400" height="400" loading="lazy" /> */}<div>
                                 <h6 className="text-lg font-medium text-gray-700">Khadijat Abisola Ibrahim</h6>
-                                <p className="text-sm text-gray-500 ">4300L, Arts Education.</p>
+                                <p className="text-sm text-gray-500 ">300L, Arts Education.</p>
                             </div>
                         </div>
                         <p className="mt-8 text-sm">
