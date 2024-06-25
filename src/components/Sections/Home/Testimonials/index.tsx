@@ -8,8 +8,8 @@ export default function Testimonials() {
 
             <div className="max-w-7xl h-auto mx-auto px-6 md:px-12 xl:px-6">
 
-                <div className="mb-10 space-y-4 px-6 md:px-0">
-                    <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-600  md:text-4xl">We Have Some Fans</h2>
+                <div className="my-10 space-y-4 px-6 md:px-0">
+                    <h2 className="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-600  md:text-4xl">Testimonials</h2>
                 </div>
 
 
@@ -25,10 +25,16 @@ export default function Testimonials() {
                                 <p className="text-sm text-gray-500">Mobile dev</p>
                             </div>
                         </div>
-                        <p className="mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid quo eum quae quos
-                            illo earum ipsa doloribus nostrum minus libero aspernatur laborum cum, a suscipit, ratione ea totam.
-                            cum, a suscipit, ratione ea totam. cum, a suscipit, ratione ea totam. cum, a suscipit, ratione ea totam. cum, a suscipit, ratione ea totam
-                            cum, a suscipit, ratione ea totam
+                        <p className="mt-8 text-sm">
+                            I joined the UNILAG GREEN HUB as a result of my love for the preservation of the quality of nature and it's resources and it has been mind-blowing ever since. 
+                            From attending different
+                             environmental based conferences 
+                             and events to my involvement in activities such Plant
+                              care that adds value to mother earth. <br /> <br />
+                           
+                            I've also been privileged to relate and collaborate with scholarly minds across various departments of the University who have keen interest in the creation of a sustainable environment.
+
+
                         </p>
                     </div>
 

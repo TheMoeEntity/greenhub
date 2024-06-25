@@ -38,7 +38,7 @@ const Header = () => {
                     <Link href={'/about'} className='text-white'>About</Link>
                     <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
-                    <Link href={'/gallery'} className='text-white'>Gallery</Link>
+                    {/* <Link href={'/gallery'} className='text-white'>Gallery</Link> */}
                     <Link href={'/contact'} className='text-white'>Contact</Link>
                     <Link href={'/metrics'} className='text-white'>Sustainability metrics</Link>
                 </div>
@@ -52,7 +52,7 @@ const Header = () => {
                     <Link href={'/about'} className='text-white'>About</Link>
                     <Link href={'/activities'} className='text-white'>Activities</Link>
                     <Link href={'/volunteer'} className='text-white'>Volunteer</Link>
-                    <Link href={'/gallery'} className='text-white'>Gallery</Link>
+                    {/* <Link href={'/gallery'} className='text-white'>Gallery</Link> */}
                     <Link href={'/contact'} className='text-white'>Contact</Link>
                     <Link href={'/metrics'} className='text-white'>Sustainability metrics</Link>
                 </div>
