@@ -35,7 +35,7 @@ const FundRaisers = () => {
             title: "2023 Children Summer Sustainability Hangout",
             content: "The hangout, organised for children who are currently on holiday, is targeted at teaching them about circularity and waste recycling on campus ",
             comingSoon: false,
-            slug: 'children-summer-sustainability-hangout'
+            slug: 'https://unilag.edu.ng/?p=25304'
         },
     ]
     return (
