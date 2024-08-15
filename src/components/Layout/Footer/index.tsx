@@ -8,9 +8,9 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.grid}>
                 <div>
-                    <div className={styles.logo}>
+                    <h2 className='text-2xl'>
                         UNILAG GREENHUB
-                    </div>
+                    </h2>
                     <p>
                         Your go-to learning center for everything you need to know about circular economy, environmental sustainability, waste management, climate change and carbon literacy
                     </p>
@@ -24,19 +24,27 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="">
-                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-                    <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Discord Server</a>
+                    <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Useful Links</h2>
+                    <ul className="text-white dark:text-gray-400 font-medium">
+                        <li className="mb-4 text-white">
+                            <Link href='/about'>
+                                About UNILAG GREENHUB
+                            </Link>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Twitter</a>
+                        <li className="mb-4 text-white">
+                            <Link href='/activities'>
+                                Activities
+                            </Link>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Facebook</a>
+                        <li className="mb-4 text-white">
+                            <Link href='/volunteer'>
+                                Volunteer
+                            </Link>
                         </li>
-                        <li className="mb-4">
-                            <a href="#" className="hover:underline">Contact Us</a>
+                        <li className="mb-4 text-white">
+                            <Link href='/contact'>
+                                Contact Us
+                            </Link>
                         </li>
                     </ul>
                 </div>
