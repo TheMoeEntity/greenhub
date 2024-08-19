@@ -62,7 +62,7 @@ const Numbers = () => {
                 />
                 <span>
                   Plastic bottles recycled <br />{" "}
-                  <small>(31st May, 2023)</small>
+                  <small>(31st May, 2024)</small>
                 </span>
               </div>
             </div>
