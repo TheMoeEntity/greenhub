@@ -4,6 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 import { Poppins } from "next/font/google";
+import AppLayout from "../components/Layout/AppLayout";
 const poppins = Poppins({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -42,7 +43,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <AppLayout>{children}</AppLayout>
+      </body>
     </html>
   );
 }
